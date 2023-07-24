@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        outline: none;
+        text-decoration: none;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    body {
+        background: #6aa2c4;
+    }
+    
+    .scope{
+        max-width: 350px;
+        width: 100%;
+        height: auto;
+        background: #353c0281;
+        padding: 60px 45px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 20px;
+    }
+    .scope .title{
+        margin-bottom: 20px;
+        text-align: center;
+        font-size: 26px;
+        color: #3aaf9f;
+    }
+    .scope .social_media {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .scope .social_media .logo{
+        width: 35px;
+        height: 35px;
+        border: 2px solid #eeeeee;
+        text-align: center;
+        line-height: 35px;
+        border-radius: 50%;
+        cursor: pointer;
+        color: #eeeeee;
+        transition: all 0.5s ease;
+    }
+    .scope .social_media .logo:hover{
+        border-color: #3aaf9f;
+        color: #3aaf9f;
+    }
+    .scope .form .data-input{
+        position: relative;
+        margin-bottom: 10px;
+    }
+    .scope .form .data-input .input{
+        width: 100%;
+        padding: 12px;
+        padding-left: 30px;
+        border: none;
+        background: #eeeeee;
+    }
+    .scope .form .sk{
+        width: 70%;
+        margin: 20px auto 0;
+        background: #25c64d;
+        padding: 12px;
+        text-align: center;
+        border-radius: 25px;
+    }
+    .scope .form .sk a{
+        color: #fff;
+    }
+    .scope .form .data-input i{
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        color: #1d2120;
+        font-size: 14px;
+    }
+    
+    ::-webkit-input-placeholder{
+        color: #848484;
+    }
+        </style>
+
+
+<meta charset="utf-8">
+<title>kayit ol</title>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+<link rel="stylesheet" href="style.css">
+
+
+    </head>
+
+
+    <body>
+
+        <div class="scope">
+            <div class="title">Kayıt ol
+            </div>
+            <div class="social_media">
+                <div class="logo">
+                    <i class="fab fa-facebook-f"></i>
+                </div>
+                <div class="logo">
+                    <i class="fab fa-instagram"></i>
+                </div>
+                <div class="logo">
+                    <i class="fab fa-twitter"></i>
+                </div>
+                
+            </div>
+    
+            <div class="form">
+                <div class="data-input">
+                    <input type="text" placeholder="Name" class="input">
+                    <i class="fas fa-user"></i>
+                </div>
+                <div class="data-input">
+                    <input type="text" placeholder="Email" class="input">
+                    <i class="far fa-envelope"></i>
+                </div>
+                <div class="data-input">
+                    <input type="Password" placeholder="Password" class="input">
+                    <i class="fas fa-lock"></i>
+                    </div>
+                    <div class="sk">
+                        <a href="#">Kayıt Ol</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    </body>
+</html>
